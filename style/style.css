@@ -108,10 +108,27 @@ button {
   text-decoration-line: underline;
   margin-top: 16px;
 }
-.man-content {
+#section-man {
+  padding: 100px;
+}
+.section3 {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
+  padding: 86px 175px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
+}
+.section3 .man-section .man {
+  width: 75%;
+  max-width: 1080px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.section3 .man-section p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
 }
